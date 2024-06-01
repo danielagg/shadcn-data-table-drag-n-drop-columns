@@ -1,3 +1,5 @@
+import { DataTable } from "./DataTable";
+
 export const App = () => {
   return (
     <main className="min-h-screen flex flex-col py-12 bg-gray-900 text-gray-200">
@@ -23,7 +25,7 @@ export const App = () => {
         </p>
       </section>
       <section className="pt-16 container">
-        {/* <DataTable columns={columns} data={users} /> */}
+        <DataTable />
       </section>
     </main>
   );
